@@ -1,0 +1,281 @@
+/* Common elements */
+body {
+    font-size: 67.5%;
+    font-family: Tahoma, Geneva, sans-serif;
+    background: #FFEFD3;
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    color: #001B2E; 
+    font-size: 2.0em;
+    margin: .5em 0 .5em 0;
+    padding: 0;
+}
+
+h2 {
+    color: #001B2E;
+    font-size: 1.7em;
+    padding: 0px;
+    margin: .5em 0 .35em 0;
+}
+
+p {
+    font-size: 1.2em;
+    line-height: 1.4em;
+    color: #002654;
+    padding: 0px;
+    margin: 0px .5em .75em 0px;
+}
+
+ol {
+    font-size: 1.2em;
+    margin: 0 0 0 1.0em;
+    padding: 0 0 0 1.0em;
+}
+
+ol li {
+    margin: 0;
+    padding: 0 0 0 .2em;
+}
+
+a, a:visited {
+    color: #c64322;
+}
+
+a:hover {
+    color: #333;
+}
+
+hr {
+    padding: 0;
+    margin: 1.5em 1.5em 0.75em .5em;
+}
+
+.contentWrapper {
+    margin: 0 auto;
+    max-width: 1500px;
+    padding: 0 3.0em;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+div.clear {
+    clear: both;
+    font-size: 1%;
+}
+
+/* Header */
+/* Eventually put in auto javaScript carousel, outside of scope of project */
+header {
+    padding: 2.5em 0 .5em;
+    margin: 0 0 2.0em;
+    background: #294C60 url(img/IMG_0877.JPG) no-repeat center; 
+    height: 50em;
+    width: 100%;
+    position: static;
+}
+
+#head h1 {
+    font-family: "ink free", times, serif;
+    color: #adb6c4;
+    font-size: 10.5em;
+    letter-spacing: -0.025em;
+    margin: 0;
+    /* text-shadow: 1px 2px 0 #bd8437; offset-x | offset-y | blur-radius |color */
+    text-shadow: 1px 2px 0 #001B2E;
+}
+
+#head h2 {
+    font-weight: 300;
+    font-size: 6.8em;
+    font-family: 'Courier New', Courier, monospace;
+    color: #002654;
+    margin: -0.4em 0 0 1.0em;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    text-shadow: 1px 2px 0 #fff;
+}
+
+#head {
+    text-align: center;
+}
+
+/* Nav Bars */
+nav {
+    color: #000000;
+    font-size: 1.7em;
+    letter-spacing: 0.04em;
+    padding: 1.0em 1.0em .5em;
+    margin: 1.0em 0;
+}
+
+nav img {
+    width: 25px;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    display: inline;
+    margin: 0;
+}
+
+nav#utilityMenu {
+    float: right;
+    margin: -.5em 0 0 0;
+    padding: 0.35em;
+    background-color: transparent;
+    height: 1.3em;
+}
+
+nav#utilityMenu li {
+    padding: 0 0.25em 0 .2em;
+    vertical-align: middle;
+}
+
+nav#utilityMenu ul li.acctNav a, nav#utilityMenu ul li.accNav a:visited {
+    color: #fff;
+    text-decoration: none;
+    display: inline;
+    height: 1.3em;
+    padding: .5em;
+    margin: -0.4em 0 0 0;
+    font-size: 0.8em;
+}
+
+nav#utilityMenu li a, nav#utilityMenu li a:visited { padding: 0;}
+nav#utilityMenu li a:hover { background-color: transparent;}
+nav#utilityMenu ul li input#search {
+    vertical-align: middle;
+    margin: 0 0 0 1.0em;
+}
+
+/* Main Section */
+section #main {
+    background-color: #fcfbe6;
+    margin: 0 0 2.0em;
+    padding: 1.5em 0 2.0em 1.5em;
+    align-items: center;
+    border-radius: 2em;
+    box-shadow: 1px 1px 5px #001B2E;
+}
+
+section div.panel {
+    position: relative;
+    width: 250px;
+    margin: auto;
+    margin-bottom: 2.5em;
+    padding: 1.0em;
+    background-color: #ffffff;
+    border: #ccc solid 1px;
+    border-radius: 1em;
+}
+
+section div.panel img.bookType {
+    width: 100%;
+}
+
+/* Sidebar Section */
+section#sidebar {
+    width: 100%;
+    height: 18em;
+    background-color: #ffffffc8;
+    padding: 1.7em 0.5em 2.0em 1.7em;
+    border-top: #FFC49B solid  5px;
+    border-left: #FFC49B solid  5px;
+}
+
+.summary {
+    width: 55%;
+    float: left;
+    margin-right: 100px;
+}
+
+.author {
+    width: 25%;
+    float: right;
+}
+
+/* Footer */
+footer {
+    background-color: #40362f;
+    height: 25px;
+    font-size: 1.2em;
+    color: #fff;
+    text-align: center;
+    padding: 1.5em 2.0em;
+}
+
+footer ul#menuFooter {
+    display: inline-block;
+    list-style: none;
+    margin: 0 0 0 0.6em;
+    padding: 0;
+}
+
+footer ul li {
+    display: inline-block;
+    padding: 0 0.7em 0 0;
+    margin: 0;
+}
+
+footer ul li::before {
+    content: "| ";
+    padding: 0.7em;
+}
+
+footer a, footer a:visited {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+button {
+    color: #000000;
+    background-color: #fff;
+    display: inline-block;
+    margin: auto;
+    padding: 0.2em 0.5em;
+    border: 1px solid #294C60;
+    text-transform: uppercase;
+}
+
+button:hover {
+    background-color: #4f91b8a2;
+    border: 1px solid #001B2E;
+}
+ /* footer experiment */
+.page-wrap {
+    min-height: 100%;
+    margin-bottom: -42px; /*opposite to footer height*/
+}
+.page-wrap:after {
+    content: "";
+    display: block;
+}
+.siteFooter, .page-wrap:after {
+    height: 42px; 
+}
+.siteFooter {
+    background: #294C60;
+}
+
+.clear {
+    height: 25px;
+}
